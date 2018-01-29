@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 爬取春节图片并且保存本地
 import os
 from bs4 import BeautifulSoup
 import urllib.request
@@ -15,7 +15,7 @@ def getFileName(page, name, suffix='jpg'):
 def spider():
     # 第一页
     page = 0
-    while page < 1:
+    while page < 10:
         page += 1
         url = 'http://588ku.com/sucai/0-default-0-0-chunjie-{}'.format(page)
         print(url)

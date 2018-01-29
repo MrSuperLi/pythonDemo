@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+# 爬取豆瓣Top250电影资讯
+
 from bs4 import BeautifulSoup
 import urllib.request
 
